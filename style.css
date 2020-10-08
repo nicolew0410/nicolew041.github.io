@@ -9,7 +9,8 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 30px;
+    font-family:copperplate;
 }
 
 a {
@@ -32,6 +33,9 @@ a {
 
 .margin {
     margin-bottom: 45px;
+    font-family:wa;
+    font-size:55px;
+    color:#cedaed;
 }
 
 .bg-1 {
@@ -40,7 +44,7 @@ a {
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-color: #7d8a9e; /* Blue */
     color: #ffffff;
 }
 
@@ -54,7 +58,7 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
+    background-color:#575c63; /* Black */
     color: #ffffff;
 }
 
@@ -80,4 +84,26 @@ a {
 
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
+}
+@font-face{
+  font-family:wa;
+  src: url("wa.ttf")
+}
+@font-face{
+  font-family:pot;
+  src: url("Potra.ttf")
+}
+.sty{
+  font-family:pot;
+  font-size:22px;
+}
+.mat{
+  width:200px;
+  height:80px;
+  background-color:#9fa2b3;
+  border-style:double;
+  border-color:#696c80;
+  color:#272a42;
+  border-width:10px;
+  border-radius:20px;
 }
