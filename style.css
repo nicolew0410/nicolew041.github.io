@@ -8,11 +8,13 @@ body {
     color: #f5f6f7;
 }
 
-p {
+.font1 {
     font-size: 30px;
     font-family:copperplate;
 }
-
+.size1{
+    font-size:15px;
+}
 a {
     color: #2e72a1;
 }
